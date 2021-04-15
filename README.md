@@ -9,7 +9,7 @@
 - Clone or zip download this repository
 - Extract the contents and open the folder
 - pip install -r requirements.txt
-- Double click on file named *main*.
+- Double click on file named *main*
 ```
 # Know the features of your app
 
@@ -30,7 +30,7 @@
 - Expand the hidden icon
 - Right click on hand gesture icon
 - Click on exit
-- Yeah, it is that simple 😉😉
+- Yeah, it's that simple 😉😉
 ```
 
 - Any changes, improvements are welcome.
