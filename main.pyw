@@ -7,6 +7,7 @@ import sys
 from PIL import Image
 from pystray import Menu, MenuItem
 import threading
+from plyer import notification as nf
 
 stop_code = 0
 
@@ -66,7 +67,7 @@ def main_code():
                 cap.release()
                 break
     except:
-        pass
+        nf.notify("Error", "There is some error. Please close and run again.")
   
     finally:
         cv2.destroyAllWindows()
@@ -74,7 +75,7 @@ def main_code():
             
        
 
-def exit_action(icon):
+def exit_action(icon):   
     global stop_code
     icon.visible = False 
     stop_code = 1
